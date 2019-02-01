@@ -25,6 +25,15 @@ import "vue-wysiwyg/dist/vueWysiwyg.css";
 
 Vue.use(wysiwyg, {});
 ```
+'vue-wysiwyg.js' 파일을 반드시 불러와야 사용이 가능하다.
+예시) nuxt를 사용할 경우,
+```js
+plugins : [ 
+  ...
+  {src: '~/plugins/vue-wysiwyg'},  
+  ...
+]
+```
 
 에디터를 사용할 Vue 파일에 다음과 같이 적용한다.
 
