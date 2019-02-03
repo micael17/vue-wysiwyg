@@ -26,7 +26,7 @@ import "vue-wysiwyg/dist/vueWysiwyg.css";
 Vue.use(wysiwyg, {});
 ```
 'vue-wysiwyg.js' 파일을 반드시 불러와야 사용이 가능하다.
-예시) nuxt를 사용할 경우,
+예시) nuxt를 사용할 경우, nuxt.config.js에서 다음과 같이 입력한다.
 ```js
 plugins : [ 
   ...
